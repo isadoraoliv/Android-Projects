@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/profile" android:title="Profile" android:icon="@drawable/ic_person_black_24dp"/>
+    <item android:id="@+id/friends" android:title="Friends" android:icon="@drawable/ic_people_black_24dp"/>
+    <item android:id="@+id/map" android:title="Map" android:icon="@drawable/ic_location_on_black_24dp"/>
+    <item android:id="@+id/events" android:title="Events" android:icon="@drawable/ic_event_black_24dp"/>
+    <item android:id="@+id/schedule" android:title="Schedule" android:icon="@drawable/ic_perm_contact_calendar_black_24dp"/>
+    <item android:id="@+id/search" android:title="Search" android:icon="@drawable/ic_search_black_24dp"/>
+    <item android:id="@+id/settings" android:title="Settings" android:icon="@drawable/ic_settings_black_24dp"/>
+    <item android:id="@+id/logout" android:title="Logout" android:icon="@drawable/ic_exit_to_app_black_24dp"/>
+
+</menu>
