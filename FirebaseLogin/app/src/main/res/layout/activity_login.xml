@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:orientation="vertical"
+    tools:context="com.example.overwatch.firebaselogin.LoginActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/login_activity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:title="Login Screen"
+        android:background="@color/colorPrimary">
+    </android.support.v7.widget.Toolbar>
+
+    <ImageView
+        android:layout_marginTop="50dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:src="@drawable/car"/>
+
+    <EditText
+        android:id="@+id/text_user"
+        android:layout_marginTop="110dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginRight="80dp"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:hint="USER"
+        android:textSize="15dp"/>
+
+    <EditText
+        android:id="@+id/text_password"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginRight="80dp"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:hint="PASSWORD"
+        android:textSize="15dp"/>
+
+
+    <Button
+        android:id="@+id/button_login"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginRight="80dp"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:textColor="@color/colorPrimary"
+        android:background="@drawable/button_style"
+        android:textSize="15dp"/>
+
+</>
+
+
+
