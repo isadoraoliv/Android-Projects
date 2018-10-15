@@ -53,5 +53,6 @@ public class DialogAlerta extends DialogFragment {
 
         return view;
 
+
     }
 }
