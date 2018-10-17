@@ -12,6 +12,7 @@ import android.Manifest;
 import android.widget.Toast;
 
 import com.isadora.oliveira.firebasecursods.storage.StorageDownloadActivity;
+import com.isadora.oliveira.firebasecursods.storage.StorageUploadActivity;
 import com.isadora.oliveira.firebasecursods.util.Permissao;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
@@ -55,6 +56,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 break;
 
             case R.id.cardView_Storage_Upload:
+
+                startActivity(new Intent(getBaseContext(), StorageUploadActivity.class));
 
                 break;
 

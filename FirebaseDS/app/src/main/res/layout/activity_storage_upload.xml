@@ -5,13 +5,13 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:layout_gravity="center"
+    android:gravity="center"
     tools:context="com.isadora.oliveira.firebasecursods.storage.StorageUploadActivity">
 
     <ImageView
         android:id="@+id/imageView_StorageUpload"
         android:layout_width="300dp"
-        android:layout_height="300dp"/>
+        android:layout_height="300dp"        />
 
     <Button
         android:id="@+id/button_StorageUpload_Enviar"
