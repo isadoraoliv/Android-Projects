@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">iList</string>
+    <string name="app_editText">Enter the task to be performed</string>
+    <string name="add_task">Task add successfully!</string>
+</resources>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="25dp"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/editTextId"
+            android:layout_width="wrap_content"
+            android:layout_height="45dp"
+            android:layout_marginRight="30dp"
+            android:inputType="textPersonName"
+            android:hint="@string/app_editText"
+            android:textSize="15sp"
+            android:textColor="@color/colorSecond"/>
+
+        <Button
+            android:id="@+id/buttonAddId"
+            android:background="@drawable/button_add_style"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:text="Add"
+            android:textSize="15sp"
+            android:textColor="@color/colorSecond"/>
+
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/listViewId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp">
+    </ListView>
+
+</LinearLayout>
