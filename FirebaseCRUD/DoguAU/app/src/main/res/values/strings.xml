@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Dog-uAU</string>
+    <string name="nome">Nome: </string>
+    <string name="logradouro">Logradouro: </string>
+    <string name="numero">Numero: </string>
+    <string name="complemento">Complemento: </string>
+    <string name="cidade">Cidade: </string>
+    <string name="cep">CEP: </string>
+    <string name="estado">Estado: </string>
+    <string name="telefone">Telefone: </string>
+    <string name="cpf">CPF: </string>
+    <string name="rg">RG: </string>
+    <string name="email">E-mail: </string>
+
+</resources>
